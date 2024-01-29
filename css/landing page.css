@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: auto;  
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-container img{
+    animation: rotate 8s linear;
+    height: 450px;
+    position: fixed;
+    left: 900px;
+    top: 150px;
+    
+}
+
+.opening{
+    font-family: "Play", sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(196, 191, 191);
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typeWriter 7s steps(10000) ;
+    text-shadow: 0 0 5px #000000b4;
+    position: relative;
+    display: inline-block;
+    top: 330px;
+    left: 25px;
+    margin: 5px 0px;
+}
+
+.opening .p{
+    font-weight: 900; 
+}
+
+.hover{
+    position: relative;
+    text-shadow: 0 0 5px #f7f7f7d0;
+    color: rgb(38, 43, 41);
+    font-weight: 900;
+    top: -30px;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes typeWriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}

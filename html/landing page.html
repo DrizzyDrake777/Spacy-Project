@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/landing page.css">
+    <title>Landing spacy</title>
+</head>
+
+<body>
+    <div class="landing-page">
+        <div class="logo-container">
+            <img src="../img/logo.png" alt="Your Logo">
+            <div class="opening">
+                <p>WELCOME YOUNG DEVELOPERS,</p>
+                <p>
+                    ARE Y'ALL READY FOR 
+                </p>
+                <p class="hover">THIS ADVENTURE !</p>
+
+            </div>
+        </div>
+        
+        <script>
+            // Wait for the page to load
+            document.addEventListener("DOMContentLoaded", function () {
+                // Set a timeout to redirect after 8 seconds
+                setTimeout(function () {
+                    window.location.href = "index.html"; // Replace with the actual filename or path of your index.html
+                }, 8000); // 5000 milliseconds = 5 seconds
+            });
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            document.body.classList.remove("move-logo");
+            });
+        </script>
+
+<script src="../Js/landing.js"></script>
+</body>
+</html>
